@@ -1,6 +1,7 @@
 #include <iostream>
 
 // assignment operator =
+// ternary operator ?
 
 int main()
 {
@@ -18,4 +19,22 @@ int main()
 	int x, y, z;
 	x=y=z=5;
 	std::cout << "x : " << x << " , y : " << y << ", z : "<< z  << std::endl;
+
+	int d, e = 3;
+	std::cout << "d : " << d << " , e : " << e << std::endl;
+	d = e;
+	std::cout << "d : " << d << " , e : " << e << std::endl;
+	d += 2;
+	std::cout << "d : " << d << " , e : " << e << std::endl;
+
+	int f,g;
+	f = 2;
+	g = 7;
+	
+	std::cout << ((a>b) ? a : b) << std::endl;
+
+	int i;
+	float j = 3.14;
+	i = int(j);
+	std::cout << i << std::endl;
 }
